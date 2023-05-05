@@ -1,3 +1,4 @@
+#=======================================================Imports================================================
 from tkinter import *
 import tkinter as tttk
 from ttkthemes import themed_tk as tk
@@ -9,7 +10,7 @@ from fpdf import FPDF
 import os
 from tkinter import filedialog
 from tkinter.filedialog import asksaveasfile
-
+#==============================================================Tkinter Frames====================================================
 root= tk.ThemedTk()
 root.get_themes()                 
 root.set_theme("radiance")
