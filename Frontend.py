@@ -1,3 +1,4 @@
+#==============================================================Imports======================================================
 from tkinter import*
 import tkinter.messagebox
 from tkinter import ttk
@@ -6,7 +7,7 @@ from ttkthemes import themed_tk as tk
 from subprocess import call
 import mysql.connector
 
-
+#=============================================================Tkinter Frames========================================================
 b= tk.ThemedTk()
 b.get_themes()                 
 b.set_theme("radiance")
