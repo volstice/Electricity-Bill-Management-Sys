@@ -1,3 +1,4 @@
+#=================================================================Imports==================================================
 from tkinter import *
 import tkinter as tttk
 from ttkthemes import themed_tk as tk
@@ -5,7 +6,7 @@ from tkinter import ttk
 from tkinter import messagebox
 import mysql.connector
 
-
+#===================================================================Functions=======================================================================
 
 def update(rows):
     trv.delete(*trv.get_children())
@@ -139,11 +140,11 @@ def clearlst():
     
     
      
-    
+#====================================================================Database Conn.=========================================================    
 
-mydb = mysql.connector.connect (host="localhost", user="root", passwd="sandy", database="ebms")
+mydb = mysql.connector.connect (host="localhost", user="root", passwd="*********", database="ebms")
 cursor = mydb.cursor()
-
+#====================================================================Tkinter Frame============================================
 root= tk.ThemedTk()
 root.get_themes()                 
 root.set_theme("radiance")
