@@ -1,4 +1,4 @@
-# Electrcity Bill Mangement System (DBMS)
+# Electricity Bill Mangement System (DBMS)
 
 ## Objective 
 
