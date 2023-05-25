@@ -5,5 +5,5 @@ The Dataset CSV has been custom built to satisfy the ER Diagram Requirements and
 - Customer contains Cust_ID, Customer_First_Name, Customer_Last_Name, Address_Line_1, Address_Line_2, Pincode and Contact_Number
 - Tariff contains Account_Type, Tariff_Rate and Fixed_Rate
 
-by (adityawardhanm)[https://github.com/adityawardhanm]
+by [volstice](https://github.com/volstice) and [adityawardhanm](https://github.com/adityawardhanm)
 
